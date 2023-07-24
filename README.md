@@ -116,6 +116,10 @@ You can stop the attacks by sending a GET request to the API using the attack ID
 
 GET `https://api.yourdomain.com/api/stop?attack_id=[id]`
 
+You can also view all running attacks and server usage by sending a GET request to the API
+
+GET `https://api.yourdomain.com/api/status`
+
 You can also stop all the attacks sending a GET request to the API
 
 GET `https://api.yourdomain.com/api/stop_all`
