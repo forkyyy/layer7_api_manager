@@ -61,7 +61,7 @@ npm i express mysql
 
 ```js
 const socket_port = 3000;
-const socket_token = "SOCKET_TOKEN"; //your secret token to protect the TCP connection
+const socket_token = "SECRET_TOKEN"; //your secret token to protect the TCP connection
 const allowed_ips = ['1.1.1.1']; //the API server IP
 ```
 
