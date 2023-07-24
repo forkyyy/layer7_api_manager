@@ -51,9 +51,9 @@ npm i express mysql
         "password": "DATABASE_PASSWORD",
         "database": "DATABASE_NAME"
     },
-    "socket_token": "SECRET_TOKEN", //your secret token to protect the TCP connection
-    "max_attacksn": 15, //max attacks per server
-    "api_port": 3000 //api port
+    "socket_token": "SECRET_TOKEN", 
+    "max_attacksn": 15,
+    "api_port": 3000
 }
 ```
 
