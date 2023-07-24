@@ -1,0 +1,11 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "DATABASE_USER",
+        "password": "DATABASE_PASSWORD",
+        "database": "DATABASE_NAME"
+    },
+    "socket_token": "SECRET_TOKEN",
+    "max_attacksn": 15,
+    "api_port": 3000
+}

